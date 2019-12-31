@@ -115,15 +115,12 @@ if len(y)>len(x):
     x=q+x
 
 
-print('The binary form of second number is:',y)
-print('The binary form of first number is:',x)
 
 z=compliment(y)
-print("The two's compliment of second no. :",z)
 
 
 v=add_bin(x,z)
-print('The binary form of addition is:',v)
+
 
 
 if v[0]==1:
